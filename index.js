@@ -25,3 +25,14 @@ class Heroi {
         console.log(`O ${this.tipo} ${this.nome} atacou usando ${ataque}`);
     }
   }
+  
+  const mago = new Heroi('Harry', 68, 'mago');
+  const guerreiro = new Heroi('Bárbaro', 20, 'guerreiro');
+  const monge = new Heroi('Lee Silva', 40, 'monge');
+  const ninja = new Heroi('Kakashi', 35, 'ninja');
+  
+  mago.atacar();
+  guerreiro.atacar();
+  monge.atacar();
+  ninja.atacar();
+  
